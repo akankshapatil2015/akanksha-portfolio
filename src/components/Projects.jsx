@@ -1,14 +1,22 @@
 import antigravityImage from '../assets/antigravity.png';
 import dashboardImage from '../assets/dashboard.png';
 import portfolioImage from '../assets/portfolio.png';
+import accredianImage from '../assets/accredian.png';
 
 function Projects() {
   const projects = [
     {
       number: '01',
       title: 'Anti-Gravity Interactive Simulation',
-      description: 'A browser-based physics experiment with Matter.js, Canvas rendering, collision detection, and responsive interactions.',
-      technologies: ['JavaScript', 'Matter.js', 'HTML5 Canvas', 'Physics Simulation', 'Performance'],
+      description:
+        'A browser-based physics experiment with Matter.js, Canvas rendering, collision detection, and responsive interactions.',
+      technologies: [
+        'JavaScript',
+        'Matter.js',
+        'HTML5 Canvas',
+        'Physics Simulation',
+        'Performance',
+      ],
       image: antigravityImage,
       liveDemoLink: 'https://antigravity-clone-psi.vercel.app/',
       githubLink: 'https://github.com/akankshapatil2015/antigravity-clone',
@@ -16,7 +24,8 @@ function Projects() {
     {
       number: '02',
       title: 'Interactive React Dashboard',
-      description: 'A dashboard concept centered on reusable React components, flexible layouts, and clear interactive states.',
+      description:
+        'A dashboard concept centered on reusable React components, flexible layouts, and clear interactive states.',
       technologies: ['React', 'JavaScript', 'CSS', 'Responsive UI'],
       image: dashboardImage,
       liveDemoLink: 'https://dashboard-ui-virid-three.vercel.app/',
@@ -25,11 +34,38 @@ function Projects() {
     {
       number: '03',
       title: 'Personal Portfolio',
-      description: 'A responsive portfolio bringing together frontend work, professional experience, technical capabilities, and AI-assisted workflow.',
-      technologies: ['React', 'JavaScript', 'CSS', 'Responsive UI', 'AI Tooling', 'Performance'],
+      description:
+        'A responsive portfolio bringing together frontend work, professional experience, technical capabilities, and AI-assisted workflow.',
+      technologies: [
+        'React',
+        'JavaScript',
+        'CSS',
+        'Responsive UI',
+        'AI Tooling',
+        'Performance',
+      ],
       image: portfolioImage,
       liveDemoLink: 'https://personal-portfolio-blush-mu.vercel.app/',
       githubLink: 'https://github.com/akankshapatil2015/personal-portfolio',
+    },
+    {
+      number: '04',
+      title: 'Accredian Enterprise Website Clone',
+      description:
+        'A responsive enterprise learning platform clone built with Next.js and Tailwind CSS, featuring reusable sections, responsive navigation, FAQ interactions, lead capture, and API integration.',
+      technologies: [
+        'Next.js',
+        'TypeScript',
+        'Tailwind CSS',
+        'API Integration',
+        'Responsive UI',
+        'SEO',
+        'AI Tooling',
+      ],
+      image: accredianImage,
+      liveDemoLink: 'https://accredian-enterprise-clone-o9bmdpcc9.vercel.app/',
+      githubLink:
+        'https://github.com/akankshapatil2015/accredian-enterprise-clone',
     },
   ];
 
