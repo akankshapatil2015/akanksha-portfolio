@@ -60,7 +60,6 @@ function Projects() {
         'API Integration',
         'Responsive UI',
         'SEO',
-        'AI Tooling',
       ],
       image: accredianImage,
       liveDemoLink: 'https://accredian-enterprise-clone-o9bmdpcc9.vercel.app/',
