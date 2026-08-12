@@ -65,10 +65,7 @@ function Skills() {
         'Cursor AI',
         'Claude',
         'Gemini',
-        'AI-assisted Coding',
-        'AI-assisted Debugging',
-        'Code Refactoring',
-        'Prompt Engineering',
+        'AI-assisted Development',
       ],
     },
     {

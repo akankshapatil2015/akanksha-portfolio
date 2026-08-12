@@ -47,17 +47,15 @@ useEffect(() => {
       <main>
         <div className='visitor-counter'>
           <span className='visitor-icon'>👁</span>
-          <span>
-            {visitorCount.toLocaleString()} people have viewed my portfolio
-          </span>
+          <span>{visitorCount.toLocaleString()} portfolio views</span>
         </div>
         <Hero />
         <SkillsMarquee />
         <About />
-        <Highlights />
         <Experience />
         <Projects />
         <Skills />
+        <Highlights />
         <Contact />
       </main>
     </>
